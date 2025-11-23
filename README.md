@@ -30,7 +30,7 @@ The `notebooks/` folder contains both experimental iterations and the final prod
 
 #### **Final Production Pipeline** (In Order):
 1. **`01_text_distilbert.ipynb`** - Fine-tune DistilBERT for cyberbullying text classification
-2. **`02_face_emotion (cbrt class weights).ipynb` - Train ResNet50/MobileNetV3 for facial emotion recognition with cube-root class balancing (only ResNet50 used in the final fusion model)
+2. **`02_face_emotion (cbrt class weights).ipynb`** - Train ResNet50/MobileNetV3 for facial emotion recognition with cube-root class balancing (only ResNet50 used in the final fusion model)
 3. **`03_audio_emotion_CNN.ipynb`** - Train CNN for audio emotion detection from spectrograms
 4. **`04_lexicon.ipynb`** - Extract lexicon-based sentiment features using LightGBM
 5. **`05_emotions.ipynb`** - Multi-label emotion classification using GoEmotions BiLSTM
